@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Minus | Validez votre commande de boxs repas avec recettes! | </title>
+</head>
+<body>
+    <!-- HEADER -->
+<header id="desktop-header">
+    <button class="burger" id="burger">
+        <span></span>
+        <span class="mid-span"></span>
+        <span></span>
+    </button>
+    <a href="index.html">
+        <picture>
+            <source media="(max-width: 599px)" srcset="img/logo-footer.png">
+            <source media="(min-width: 600px)" srcset="img/logo-header.png">
+            <img src="img/logo-header.png" alt="Logo Minus">
+        </picture>
+    </a>
+    <nav id="nav" class="navOff">
+        <a href="recette.html" class="h2">Au Menu</a>
+        <a href="#" class="h2">Le Concept</a>
+        <a href="#" class="h2">Blog</a>
+        <a href="connexion.html" class="h2 marg">Espace Mon Minus</a>
+    </nav>
+    <a href="choix.html" class="cta-commencer h2 radient" tabindex="0">Commencer</a>
+</header>
+
+    <!-- MAIN -->
+    <main>
+        <ul class="purchase">
+            <li><a href="choix.html"><img src="img/1.png" alt="icon 1 nav"><span>Choisir sa box</span></a><span class="trait"></span></li>
+            <li><a href="recette.html"><img src="img/2.png" alt="icon 2 nav"><span>Vos repas</span></a><span class="trait"></span></li>
+            <li class="active"><a href="achat.html"><img src="img/3-bold.png" alt="icon 3 nav bold"><span style="font-weight: bold;">Informations / Livraison</span></a><span class="trait"></span></li>
+        </ul>
+
+        <div class="wrapper body-achat">
+            <div class="headline">
+                <h2 class="h2 bold">Finalisez votre commande</h2>
+                    <div class="info-headline">
+                        <img src="img/icon_info.svg" alt="icon info">
+                        <p class="semibold">Notre abonnement prévoit une livraison chaque semaine. Vous pouvez faire une pause ou résilier en un clic depuis mon espace minus.</p>
+                    </div>
+            </div>
+
+            <section class="top-body-achat">
+                <section class="recap">
+                    <h3 class="h3 recap-title bold">Récapitulatif</h3>
+                    
+                    <div class="recap-headline">
+                        <div class="recap-subscription">
+                            <p class="body1 semibold">1 box/semaine</p>
+                            <p class="body1 semibold">39,90€</p>
+                        </div>
+                        
+                        <p>5 repas pour 1 box</p>
+                    </div>
+                    
+                    <div class="list-meals semibold">
+                        <div class="meal-achat">
+                            <img src="img/poulet_grillé.png" alt="Photo de filets de poulet grillés">
+                            <p>Filets de poulet grillés et pico de gallo à la mangue</p>
+                        </div>
+        
+                        <div class="meal-achat">
+                            <img src="img/filet_poulet.png" alt="Photo de filets de poulet grillés">
+                            <p>Filets de poulet et sauce crémeuse à la carotte</p>
+                        </div>
+                        
+                        <div class="meal-achat">
+                            <img src="img/burger_champi.png" alt="Photo de filets de poulet grillés">
+                            <p>Burger aux champignons, poire, crottin de chèvre et moutarde au curry</p>
+                        </div>
+        
+                        <div class="meal-achat">
+                            <img src="img/poulet_brocoli.jpg" alt="Photo de filets de poulet grillés">
+                            <p>Linguine au poulet et brocoli, sauce au pesto et yaourt à la grecque</p>
+                        </div>
+                        
+                        <div class="meal-achat">
+                            <img src="img/cabillaud.jpeg" alt="Photo de filets de poulet grillés">
+                            <p>Dos de cabillaud mariné aux épinards</p>
+                        </div>
+                    </div>
+                    
+                    <hr>
+
+                    <div class="price-achat">
+                        <h4 class="h4 semibold">TOTAL</h4>
+                        <h4 class="h4 semibold">39,90€</h4>
+                    </div>
+                </section>
+
+                <section class="form-account">
+                    <form>
+                        <fieldset class="account-achat">
+                            <h3 class="h3 bold">01 - Votre compte</h3>
+
+                            <div class="space">
+                                <label for="form-account-email" class="body1">Adresse email*</label>
+                                <input type="email" id="form-account-email" name="form-account-email" placeholder="E-mail" required>
+                            </div>
+        
+                            <div class="password-form-informations space">
+                                <label for="form-account-password" class="body1">Mot de passe*</label>
+
+                                <div class="inner-password-achat">
+                                    <input type="password" id="form-account-password" name="form-account-password" placeholder="Mot de passe" required>
+                                    <a href="#"><img class="img-absolute-achat" src="img/eye.svg" alt="icon oeil"></a>
+                                </div>
+                                
+                                <p class="body2">Mot de passe oublié</p>
+                            </div>
+                        </fieldset>
+
+                        <hr class="hr-form">
+        
+                        <fieldset class="choice-delivery-achat">
+                            <h3 class="h3 bold">02 - Votre livraison</h3>
+                            
+                            <div class="delivery-adress space">
+                                <label for="form-delivery" class="body1">Adresse de livraison*</label>
+                                <input type="text" id="form-delivery" name="form-delivery" placeholder="Saisissez votre adresse" required>
+                            </div>
+        
+                            <div>
+                                <div class="space">
+                                    <label for="form-tel" class="body1">N° de téléphone*</label>
+                                    <input type="tel" id="form-tel" name="form-tel" placeholder="Saisissez votre N°" required>
+                                </div>
+                                
+                                <p class="body2">Votre numéro de téléphone est utilisé pour faciliter la livraison</p>
+                            </div>
+                                        
+                            <div class="column-adress">
+                                <div class="postcode-form-achat">
+                                    <div class="space">
+                                        <label for="form-postcode" class="body1">Code postal*</label>
+                                        <input type="text" id="form-postcode" name="form-postcode" placeholder="Code postal" required>
+                                    </div>
+                                    
+                                    <p class="body2">Entrez votre code postal pour savoir si vous êtes éligible</p>
+                                </div>
+            
+                                <div class="city-form-achat space">
+                                    <label for="form-city" class="body1">Votre ville*</label>
+                                    
+                                    <div class="inner-city-achat">
+                                        <input type="text" id="form-city" name="form-city" placeholder="Sélectionnez une ville" required>
+                                        <img class="img-absolute-achat" src="img/chevron-down-grey.svg" alt="icon chevron down">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <hr class="hr-form">
+                    
+                    </form>
+                </section>
+            </section>
+
+            <section class="bottom-body-achat">
+                <section class="delivery">
+                    <h3 class="h3 delivery-title bold">Livaison</h3>
+    
+                    <div class="delivery-edit delivery-info">
+                        <p class="body1 semibold">Informations de livraison</p>
+                        <a href="#" class="body1 semibold grey">Editer</a>
+                    </div>
+
+                    <div class="delivery-first delivery-info semibold">
+                        <p class="body1 semibold">Première livraison :</p>
+                        <p class="body1 semibold grey">9 févr. 08:00 - 13:00</p>
+                    </div>
+                    
+                    <p class="delivery-info delivery-notes semibold">Notes au livreur :</p>
+
+                    <div class="semibold">
+                        <p class="body1 semibold">Livraisons ultérieures :</p>
+                        <p class="body1 semibold grey">Chaque jeudi 08:00 - 13:00</p>
+                    </div>
+                </section>
+
+                <section class="form-payment">
+                    <h3 class="h3 bold">03 - Paiement</h3>
+
+                    <div class="payment space">
+                        <div class="check_card">
+                            <img src="img/check_green.png" alt="icon check vert">
+                            <h4 class="h4 semibold">Carte</h4>
+                        </div>
+    
+                        <div class="icons">
+                            <img src="img/mastercard_icon.png" alt="icon moyen de paiement">
+                            <img src="img/cb_icon.png" alt="icon moyen de paiement">
+                            <img src="img/amex_icon.png" alt="icon moyen de paiement">
+                            <img src="img/visa_icon.png" alt="icon moyen de paiement">
+                        </div>
+                    </div>
+
+                    <form>
+                        <fieldset>
+                            <div class="column-card">
+                                <div class="card space">
+                                    <label for="form-card" class="body1">Numéro de carte*</label>
+                                    <input type="number" id="form-card" name="form-card" placeholder="1234 5674 8739 5873" required>
+                                </div>
+    
+                                <div class="expire space">
+                                    <label for="form-expire" class="body1">Date d'expiration*</label>
+                                    <input type="month" id="form-expire" name="form-expire" value="2023-01" required>
+                                </div>
+                            </div>
+
+                            <div class="security-number space">
+                                <label for="form-security-number" class="body1">Code de sécurité*</label>
+                                
+                                <div class="inner-security-number">
+                                    <input type="number" id="form-security-number" name="form-security-number" placeholder="3 chiffres" required>
+                                    <img class="img-absolute-achat" src="img/cvv.png" alt="icon CVV">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <a href="#" class="paypal">
+                            <div class="add_paypal">
+                                <img src="img/check_grey.png" alt="icon check gris">
+                                <p class="medium">Ajouter Paypal</p>
+                            </div>
+                            
+                            <img class="logo_paypal" src="img/paypal_logo.png" alt="logo paypal">
+                        </a>
+
+                        <a class="btn-pay h3" href="#">Payer</a>
+                    </form>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <a href="index.html"><img src="img/logo-footer.svg" alt="Logo Minus Footer" class="logo-footer"></a>
+            <div class="nav-links">
+                <nav class="nav-footer">
+                    <button class="link-title" id="nav-minus" tabindex="0">
+                        <span class="h2 footer-link">Minus</span>
+                        <img id="chevronMinus" class="img-chevron" src="img/chevron-right.svg" alt="Chevron up">    
+                    </button>                    
+                    <div id="links-minus" class="nav-footer-off desktop-links">
+                        <a href="#" class="txt-footer">Le Concept</a>
+                        <a href="connexion.html" class="txt-footer">Espace Minus</a>
+                        <a href="#" class="txt-footer">Gestion des Cookies</a>
+                    </div>
+                </nav>
+                <nav class="nav-footer nav-mid">
+                    <button class="link-title" id="nav-about" tabindex="0">
+                        <span class="h2 footer-link">À Propos</span>
+                        <img id="chevronAbout" class="img-chevron" src="img/chevron-right.svg" alt="Chevron up">    
+                    </button>                    
+                    <div id="links-about" class="nav-footer-off desktop-links">
+                        <a href="#" class="txt-footer">CGV</a>
+                        <a href="#" class="txt-footer">Mentions Légales</a>
+                        <a href="#" class="txt-footer">Politique de Confidentialité</a>
+                        <a href="#" class="txt-footer">Livraison</a>
+                    </div>
+                </nav>
+                <nav class="nav-footer">
+                    <button class="link-title" id="nav-aide" tabindex="0">
+                        <span class="h2 footer-link">Aide</span>
+                        <img id="chevronAide" class="img-chevron" src="img/chevron-right.svg" alt="Chevron up">    
+                    </button>                    
+                    <div id="links-aide" class="nav-footer-off desktop-links">
+                        <a href="#" class="txt-footer">Blog</a>
+                        <a href="#" class="txt-footer">FAQ</a>
+                        <a href="#" class="txt-footer">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-right">
+                <p class="h2">S'abonner à la newsletter</p>
+                <form method="post">
+                    <input type="email" placeholder="E-mail" class="nl-form body2">
+                    <a href="#" class="btn-send cta radient"><img src="img/send.svg" alt="Bouton Envoyer"></a>
+                </form>
+                <nav class="nav-rs">
+                    <a href="#" class="txt-footer"><img src="img/insta.png" alt="Instagram"></a>
+                    <a href="#" class="txt-footer"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="#" class="txt-footer"><img src="img/linkedin.png" alt="Linkedin"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="txt-footer">©2023 Crédits & copyrights</p>
+            <a href="#"><img src="img/arrow-up.svg" alt="arrow-up" class="arrow-up cta radient"></a>
+        </div>
+    </footer>
+    
+    </body>
+    </html>
